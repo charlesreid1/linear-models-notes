@@ -2,6 +2,10 @@
 
 Notes on linear statistical models, univariate models, multivariate models, empirical model building, and response surfaces.
 
+On the Web: [http://charlesreid1.github.io/linear-models-notes](http://charlesreid1.github.io/linear-models-notes)
+
+On Github: [http://github.com/charlesreid1/linear-models-notes](http://github.com/charlesreid1/linear-models-notes) 
+
 <br />
 <br />
 
@@ -11,10 +15,7 @@ The main output of the repository consists of HTML pages
 and Jupyter notebooks containing lecture notes and
 example problems on various linear modeling topics. 
 
-**Link:** [http://charlesreid1.github.io/linear-models](http://charlesreid1.github.io/linear-models)
-
 To generate these, use Pelican (see next section).
-
 
 <br />
 <br />
@@ -35,7 +36,7 @@ is organized as follows:
     * Jupyter nbconvert commands should be called by `pelicanconf.py`
 
 * Static content in `docs` is hosted on Github Pages 
-    * Link: [http://charlesreid1.github.io/linear-models](http://charlesreid1.github.io/linear-models)
+    * See link at top
 
 
 ### Configuration file:
