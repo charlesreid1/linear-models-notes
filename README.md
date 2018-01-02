@@ -2,9 +2,9 @@
 
 Notes on linear statistical models, univariate models, multivariate models, empirical model building, and response surfaces.
 
-On the Web: [http://charlesreid1.github.io/linear-models-notes](http://charlesreid1.github.io/linear-models-notes)
+On the Web: [https://charlesreid1.github.io/linear-models-notes](https://charlesreid1.github.io/linear-models-notes)
 
-On Github: [http://github.com/charlesreid1/linear-models-notes](http://github.com/charlesreid1/linear-models-notes) 
+On Github: [https://github.com/charlesreid1/linear-models-notes](https://github.com/charlesreid1/linear-models-notes) 
 
 <br />
 <br />
