@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% block content %}
+{% set index=True %}
+
+
+{# ========= header =========== #}
+
+{% set notes_title="Applieid Linear Models" %}
+{% set lead="
+Notes on linear statistical models, univariate models, multivariate models, 
+empirical model building, and response surfaces.
+" %}
+{% set link="https://github.com/charlesreid1/linear-models-notes" %}
+{% include 'notes_head.html' %}
+
+
+
+{# ========= topic 1 =========== #}
+
+{% set anchor="topic-1" %}
+{% set cluster="Linear Models" %}
+{% include 'notes_clustertitle.html' %}
+
+<div class="row">
+
+    {% set href="/notebooks/LM_1_LinearRegression.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Univariate Linear Regression" %}
+    {% set card="Notes on applied linear regression." %}
+    {% include 'notes_notebook.html' %}
+
+
+    {% set href="/notebooks/LM_2_Inference.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Inference with Univariate Linear Regression" %}
+    {% set card="Making predictions and determining confidence intervals 
+                is important for inference (actually using the model)." %}
+    {% include 'notes_notebook.html' %}
+
+
+    {% set href="/notebooks/LM_3_GoodFit.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Goodness of Fit and Residual Tests" %}
+    {% set card="Quantifying goodness of fit and charting next steps for models." %}
+    {% include 'notes_notebook.html' %}
+
+</div>
+
+
+
+{# ========= topic 2 =========== #}
+
+{% set anchor="topic-2" %}
+{% set cluster="Multiple Linear Regression" %}
+{% include 'notes_clustertitle.html' %}
+
+<div class="row">
+
+    {% set href="/notebooks/LM_4_MultipleLinearRegression.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Multiple Linear Regression" %}
+    {% set card="Notes on applied multivariate linear regression." %}
+    {% include 'notes_notebook.html' %}
+
+
+    {% set href="/notebooks/LM_5_PolynomialRegression.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Polynomial Regression" %}
+    {% set card="Notes on applying the linear regression concept to
+                fit data and coefficeints for a polyhnomial model." %}
+    {% include 'notes_notebook.html' %}
+
+
+    {% set href="/notebooks/LM_6_RidgeRegLasso.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Ridge Regression, Regularization, and LASSO" %}
+    {% set card="More advanced concepts in fitting linear models, including 
+                ridge regression, regularization, and LASSO." %}
+    {% include 'notes_notebook.html' %}
+
+</div>
+
+
+
+
+
+
+{# ========= topic 3 =========== #}
+
+{% set anchor="topic-3" %}
+{% set cluster="ANOVA" %}
+{% include 'notes_clustertitle.html' %}
+
+<div class="row">
+
+    {% set href="/notebooks/LM_7_ANOVA.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Analysis of Variance" %}
+    {% set card="Use of statsmodel and friends to perform analysis of variance." %}
+    {% include 'notes_notebook.html' %}
+
+
+    {% set href="/notebooks/LM_8_2FacANOVA.html" %}
+    {% set imgsrc="http://placehold.it/700x400" %}
+    {% set nb="Two-Factor Analysis of Variance" %}
+    {% set card="Two-factor analysis of variance." %}
+    {% include 'notes_notebook.html' %}
+
+</div>
+
+
+
+
+
+
+{# ========= fin =========== #}
+
+{% endblock %}
+
