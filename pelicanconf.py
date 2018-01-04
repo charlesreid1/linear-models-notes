@@ -14,11 +14,11 @@ import glob
 # -----------------------
 # SET THIS
 
-# Local viewing:
-SITEURL = ''
+### # Local viewing:
+### SITEURL = ''
 
-### # Github hosting
-### SITEURL = 'linear-models'
+# Github hosting
+SITEURL = 'linear-models'
 
 # OK TNX 
 # ----------------------
